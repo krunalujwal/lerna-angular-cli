@@ -121,6 +121,86 @@
           }
         }
       }
+    },
+    "login-google": {
+      "root": "projects/login-google",
+      "sourceRoot": "projects/login-google/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/login-google/tsconfig.lib.json",
+            "project": "projects/login-google/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/login-google/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/login-google/src/test.ts",
+            "tsConfig": "projects/login-google/tsconfig.spec.json",
+            "karmaConfig": "projects/login-google/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/login-google/tsconfig.lib.json",
+              "projects/login-google/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "login-facebook": {
+      "root": "projects/login-facebook",
+      "sourceRoot": "projects/login-facebook/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/login-facebook/tsconfig.lib.json",
+            "project": "projects/login-facebook/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/login-facebook/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/login-facebook/src/test.ts",
+            "tsConfig": "projects/login-facebook/tsconfig.spec.json",
+            "karmaConfig": "projects/login-facebook/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/login-facebook/tsconfig.lib.json",
+              "projects/login-facebook/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "Angular-Npm-Packges"

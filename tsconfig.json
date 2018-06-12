@@ -15,6 +15,20 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "login-google": [
+        "dist/login-google"
+      ],
+      "login-google/*": [
+        "dist/login-google/*"
+      ],
+      "login-facebook": [
+        "dist/login-facebook"
+      ],
+      "login-facebook/*": [
+        "dist/login-facebook/*"
+      ]
+    }
   }
 }
