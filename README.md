@@ -3,7 +3,7 @@ Lerna is a tool that allows you to maintain multiple npm packages within one rep
 
 _install the package & import the module_
 
-`npm i login-google`
+`npm i login-facebook`
 
 `import { LoginFacebookModule } from 'login-facebook';`
 
