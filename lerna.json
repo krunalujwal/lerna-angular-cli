@@ -1,7 +1,15 @@
 {
   "lerna": "2.11.0",
   "packages": [
-    "packages/*"
+    "packages/*",
+    "projects/*"
   ],
-  "version": "0.0.0"
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "projects/*"
+      ]
+    }
+  },
+  "version": "0.0.1"
 }

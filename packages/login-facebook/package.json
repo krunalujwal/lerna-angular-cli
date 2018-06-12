@@ -1,0 +1,21 @@
+{
+  "name": "login-facebook",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/login-facebook.umd.js",
+  "module": "fesm5/login-facebook.js",
+  "es2015": "fesm2015/login-facebook.js",
+  "esm5": "esm5/login-facebook.js",
+  "esm2015": "esm2015/login-facebook.js",
+  "fesm5": "fesm5/login-facebook.js",
+  "fesm2015": "fesm2015/login-facebook.js",
+  "typings": "login-facebook.d.ts",
+  "metadata": "login-facebook.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
