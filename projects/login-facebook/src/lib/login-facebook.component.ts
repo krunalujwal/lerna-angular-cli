@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-login-facebook',
+  selector: 'login-facebook',
   template: `
     <p>
-      login-facebook works!
+      login-facebook will be implemented soon..
     </p>
   `,
   styles: []

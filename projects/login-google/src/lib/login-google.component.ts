@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-login-google',
+  selector: 'login-google',
   template: `
     <p>
-      login-google works!
+      login-google  will be implemented soon..
     </p>
   `,
   styles: []
